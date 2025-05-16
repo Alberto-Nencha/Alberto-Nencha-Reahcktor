@@ -1,7 +1,7 @@
 import { useContext, useRef } from 'react';
 import { Link } from "react-router"; import supabase from '../supabase/supabase-client';
 import SessionContext from '../context/SessionContext';
-import RealtimeChat from './RealtimeChat';
+import RealtimeChat from './RealTimeChat';
 
 export default function Chatbox({ game }) {
     const { session } = useContext(SessionContext);
