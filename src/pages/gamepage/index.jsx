@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import useFetchSolution from '../../hooks/useFetchSolution';
 import config from '../../apiKeys/config';
 import ToggleFavorite from '../../components/ToggleFavorite';
-import Chatbox from '../../components/Chatbox';
+import Chatbox from "../../components/ChatBox";
 
 export default function GamePage() {
     const { id } = useParams();
