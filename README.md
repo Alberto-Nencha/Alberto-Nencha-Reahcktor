@@ -40,3 +40,4 @@ FavoritesContext: Gestisce la meccanica per aggiungere e rimuovere i giochi dall
 
 ## Deployment
 
+https://alberto-nencha-reahcktor-wrme.vercel.app/
